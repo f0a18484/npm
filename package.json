@@ -1,0 +1,40 @@
+{
+  "name": "xmessenger",
+  "version": "1.0.0",
+  "main": "./build.js",
+  "description": "xmessenger - nem private messenger powered by NEM blockchain",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xmessenger",
+  "license": "MIT",
+  "build": {
+    "productName": "xmessenger",
+    "appId": "org.xmessenger.io",
+    "directories": {
+      "output": "../releases"
+    },
+    "files": [
+      "./**/*"
+    ],
+    "mac": {
+      "target": [
+        "tar.gz"
+      ],
+      "icon": "../build/icons/mac/icon.icns"
+    },
+    "win": {
+      "target": [
+        "zip",
+        "nsis"
+      ],
+      "icon": "../build/icons/win/icon.ico"
+    },
+    "linux": {
+      "target": [
+        "tar.gz"
+      ],
+      "icon": "../build/icons/linux/icon.png"
+    }
+  }
+}
