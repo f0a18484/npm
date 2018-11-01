@@ -2,7 +2,7 @@
   "name": "xmessenger",
   "version": "1.0.0",
   "main": "./build.js",
-  "description": "xmessenger - nem private messenger powered by NEM blockchain",
+  "description": "xmessenger - private messenger powered by NEM",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
