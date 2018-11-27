@@ -30,9 +30,9 @@ module.exports = (function (a) {
 
   function d() {
     g = new e.BrowserWindow({
-      height: 800,
-      useContentSize: !0,
-      width: 600
+      width: 1024,
+      height: 760,
+      icon: __dirname+'/static/512x512.png',
     }), g.loadURL(h), g.on('closed', function () {
       g = null
     })
